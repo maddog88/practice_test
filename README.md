@@ -23,15 +23,15 @@ code .
 ### Now go about making changes to the file firstFile.cs and save changes when you are done.
 ### I realized .NET is a framework for Windows.  I've never used it.  A framework is a  bunch of different libraries with scripts or another way to describe it.  It's a directory with a bunch of files that are written in C#
 
-# Update your local directory to show to reflect your changes in Visual Studio.
+### Update your local directory to show to reflect your changes in Visual Studio.
 git add .
 
-# Check to see what files you changed. Green will show modified or new files added.  Red will show deleted/removed.
+### Check to see what files you changed. Green will show modified or new files added.  Red will show deleted/removed.
 git status
 
-# Commit the code you have added which always requires a message to explain your changes.  This is what you can consider commited or ready to push to github website/server.  The words inbetween the quotes can be whatever you want them to be.
+### Commit the code you have added which always requires a message to explain your changes.  This is what you can consider commited or ready to push to github website/server.  The words inbetween the quotes can be whatever you want them to be.
 git commit -m "My first Update"
 
-# Add your files to github
+### Add your files to github
 git push
-# It should pop up a github
+### It should pop up a github
