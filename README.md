@@ -1,5 +1,13 @@
 # practice_test
 
+### The process to setup github is similar to gitlab you will either need to configure https authentication or ssh.  We will do https since it is the easiest to understand.  You will need to go into git bash and store a variable locally to tell github your username.  This is the username you created when you first created your github account.
+git config user.name "maddog88"
+### You will need to store your email as variable locally as well
+git config user.email "madmiller8@gmail.com"
+
+### What you typed in gets added in to a config file.  See what you added by adding the below command.  You should be able to see it in the gitconfig file.  If you do not have this file github will not understand who you are.
+cat ~/.gitconfig
+
 ### Let's create a folder in your User directory.  This is where we will put your repository.
 cd ~
 mkdir workspace
@@ -10,6 +18,8 @@ cd workspace
 ### Type this after the money symbol ($).  The money symbol just expresses you are in the terminal and is the first character you type after.
 ### example $ git clone <your git repo>
 git clone https://github.com/maddog88/practice_test.git
+### Behind the scene here is what is happening:  When you run git clone a script is being run behind the scenes to reach out to the url you gave it.  Then github will ask who you are and your computer sends the gitconfig file information.  Next as a final measure of authentication it may ask for your users name and password associated with your github.  Username is maddog88.  The password is the password you told me.
+
 
 ### Change into the directory you have cloned down.  Your repository is essentially just a group of files in a directory.
 cd practice_test/
